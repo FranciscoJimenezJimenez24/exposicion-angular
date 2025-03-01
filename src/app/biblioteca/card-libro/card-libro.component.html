@@ -1,0 +1,8 @@
+<div class="card">
+    <img src="../../../assets/imagen.png" class="card-img-top" [alt]="libro.titulo">
+    <div class="card-body">
+        <h5 class="card-title">{{ libro.titulo | puntitos : 20 }}</h5>
+        <p class="card-text">Pages: {{ libro.num_paginas }}</p>
+        <p class="card-text">Year: {{ libro.anno_publicacion }}</p>
+    </div>
+</div>
