@@ -1,0 +1,22 @@
+#hola {
+  text-align: center;
+  color: red;
+}
+
+#boton {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.libro-destacado{
+  color: red;
+}
