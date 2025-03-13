@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card" (mouseenter)="enviarTituloLibro()">
     <img src="../../../assets/imagen.png" class="card-img-top" [alt]="libro.titulo">
     <div class="card-body">
         <h5 class="card-title">{{ libro.titulo | puntitos : 20 }}</h5>
